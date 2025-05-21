@@ -24,7 +24,7 @@ A simple RESTful API for user registration, authentication, and blog post manage
 
 ## Project Structure
 
-Project URL - `https://github.com/Shambhogit/Blogging-Platform-API`
+Project URL - `https://github.com/Shambhogit/Blogging-Platform-API` OR `https://github.com/Shambhogit/Blogging-Platform-API.git`
 ```
 .
 ├── config/
