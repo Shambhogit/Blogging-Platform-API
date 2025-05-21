@@ -25,6 +25,7 @@ A simple RESTful API for user registration, authentication, and blog post manage
 ## Project Structure
 
 ```
+Project URL - `https://github.com/Shambhogit/Blogging-Platform-API`
 .
 ├── config/
 │   └── database.js         # MongoDB connection setup
