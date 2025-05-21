@@ -6,6 +6,7 @@ const connectToDB = require('./config/database');
 connectToDB();
 
 const userRouter = require('./routes/user.routes');
+const postRouter = require('./routes/post.routes');
 
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
@@ -13,6 +14,7 @@ app.use(cors());
 
 // user route
 app.use('/api/v1/user', userRouter);
+app.use('/api/v1/post', postRouter);
 
 app.listen(PORT, (err)=>{
     if(err){
